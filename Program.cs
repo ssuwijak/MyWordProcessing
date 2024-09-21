@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 var currentPath = Environment.CurrentDirectory;
 
+// relative paths from bin folder
 var paragraph_file = Path.Combine(currentPath, @"..\..\..\paragraph.htm");
 var keywords_file = Path.Combine(currentPath, @"..\..\..\keywords.txt");
 

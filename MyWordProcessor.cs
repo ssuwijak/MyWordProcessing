@@ -118,8 +118,6 @@ namespace MyWordProcessing
 		}
 		public string RemoveHtmlTag() => RemoveHtmlTag(Content);
 
-
-
 	}
 
 
